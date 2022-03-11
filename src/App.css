@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cookie&family=Fuzzy+Bubbles&family=Lobster&family=Pacifico&family=Redressed&family=Shadows+Into+Light&family=Vujahday+Script&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h1 {
+  color: lightblue;
+  font-size: 5rem;
+  font-weight: 600;
+  font-family: 'Comic sans';
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-mail {
+  width: 20rem;
+  border: groove 3px #ffff;
+  border-radius:15px;
+  box-shadow: -3px -2px 1px #535366;
+  background: #A8D5F2;
+  opacity: 0.8;  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+  width: 20rem;
 }
+
+label {
+  font-size: 1.5rem;
+  color: blue;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  font-size: 1rem;
+  background: transparent;
+  box-shadow: 0 -2px 2px rgb(199, 194, 194);
+  border-radius: 20px;
+  color: #ffff;
+}
+
+textarea {
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+button {
+  width: 8rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  color: blue;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
